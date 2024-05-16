@@ -4,6 +4,7 @@ Hola examen git
 merge.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Ultimo cambio paso 12
 =======
 Primer cambio Prod_branch
@@ -11,3 +12,7 @@ segundo cambio
 >>>>>>> Prod_branch
 
 
+=======
+Cambio 1 Qa_branch
+Cambi2 2 Qa_branch
+>>>>>>> Qa_branch
