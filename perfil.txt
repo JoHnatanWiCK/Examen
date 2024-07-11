@@ -1,0 +1,19 @@
+
+    fun main() {
+        val Amanda = Persona("Amanda", 33, "jugar tennis", null)
+        val atiqah = Persona("Atiqah", 28, "climb", Amanda)
+
+        Amanda.mostrarPerfil()
+        atiqah.mostrarPerfil()
+    }
+
+    class Persona(val nombre: String, val edad: Int, val pasatiempo: String?, val referido: Persona?) {
+        fun mostrarPerfil() {
+            val infoReferido = if (referido != null) {
+                "Tiene un referido llamado ${referido.nombre}, a quien le gusta ${referido.pasatiempo}."
+            } else {
+                "No tiene un referido."
+            }
+            println("Nombre: $nombre\nEdad: $edad\nLe gusta $pasatiempo. $infoReferido")
+        }
+    }
