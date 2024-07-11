@@ -1,0 +1,14 @@
+    fun main() {
+        var variable = 0
+        val list = listOf(8, 2, 3,4)
+        for (i in list.indices) {
+            if (list[i]%2==0) {
+                variable = list[i]+variable
+
+
+            }
+
+        }
+        println("La suma de los numeros pares del arreglo es "+variable)
+    }
+
